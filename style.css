@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif; /* ตั้งค่าฟอนต์หลัก */
+    line-height: 1.6; /* ระยะห่างระหว่างบรรทัดเพื่อให้อ่านง่าย */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* สีพื้นหลังของเว็บ */
+    color: #333; /* สีตัวอักษรหลัก */
+}
+/* 2. ส่วนหัว (header) */
+
+header {
+    background: #4CAF50; /* สีพื้นหลังของส่วนหัว */
+    color: white; /* สีข้อความ */
+    padding: 20px 0; /* ระยะห่างด้านบนและล่าง */
+    text-align: center; /* จัดข้อความกึ่งกลาง */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0; /* ตั้งค่าระยะห่างของข้อความรอง */
+}
+/* 5. ส่วนแสดงโปรเจกต์ (.project) */
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
