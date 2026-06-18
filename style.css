@@ -1,18 +1,19 @@
 body {
-    font-family: Arial, sans-serif; /* ตั้งค่าฟอนต์หลัก */
-    line-height: 1.6; /* ระยะห่างระหว่างบรรทัดเพื่อให้อ่านง่าย */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* สีพื้นหลังของเว็บ */
-    color: #333; /* สีตัวอักษรหลัก */
+    background: linear-gradient(135deg, #d6f0ff, #ffd6e8, #e6d6ff, #fff7c2);
+    color: #555;
 }
-/* 2. ส่วนหัว (header) */
 
+/* ส่วนหัว */
 header {
-    background: #4CAF50; /* สีพื้นหลังของส่วนหัว */
-    color: white; /* สีข้อความ */
-    padding: 20px 0; /* ระยะห่างด้านบนและล่าง */
-    text-align: center; /* จัดข้อความกึ่งกลาง */
+    background: linear-gradient(90deg, #a8e6ff, #ffb6d9, #d4b5ff, #fff3a3);
+    color: #444;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -20,15 +21,19 @@ header h1 {
 }
 
 header p {
-    margin: 5px 0 0; /* ตั้งค่าระยะห่างของข้อความรอง */
+    margin: 5px 0 0;
 }
-/* 5. ส่วนแสดงโปรเจกต์ (.project) */
 
+/* กล่องโปรเจกต์ */
 .project {
-    margin-bottom: 20px;
+    margin: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .project h3 {
     margin: 0 0 10px;
-    color: #333;
+    color: #8a6cff;
 }
