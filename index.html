@@ -1,101 +1,61 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(
-        135deg,
-        #d6f4ff,
-        #ffd6ec,
-        #e8d6ff,
-        #fff7b8
-    );
-    color: #555;
-}
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="เว็บไซต์แสดงผลงานและทักษะของ Kanpitcha">
+    <title>ความภาคภูมิใจของ KANPITCHA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-/* ส่วนหัว */
-header {
-    background: linear-gradient(
-        90deg,
-        #a8e8ff,
-        #ffb6d9,
-        #d8b4ff,
-        #fff3a0
-    );
-    color: #444;
-    text-align: center;
-    padding: 30px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
+<body>
+    <!-- ส่วนหัวของเว็บ -->
+    <header>
+        <h1>สวัสดีค่ะ! ผมคือ KANPITCHA</h1>
+        <p>นี่คือผลงานและความภาคภูมิใจของฉัน</p>
+    </header>
 
-/* ส่วนเนื้อหา */
-section {
-    background: rgba(255,255,255,0.85);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
+    <!-- ส่วนเกี่ยวกับตัวเอง -->
+    <section id="about">
+        <h2>เกี่ยวกับฉัน</h2>
+        <p>ฉันเป็นนักพัฒนาซอฟต์แวร์ที่มีความหลงใหลในการสร้างสรรค์สิ่งใหม่ ๆ ผมภูมิใจในผลงานและทักษะที่พัฒนามาอย่างต่อเนื่อง</p>
+    </section>
 
-/* หัวข้อ */
-h2 {
-    color: #b05cff;
-    text-align: center;
-}
+    <!-- ส่วนแสดงผลงาน -->
+    <section id="projects">
+        <h2>ผลงานของฉัน</h2>
 
-.project {
-    background: linear-gradient(
-        135deg,
-        #ffffff,
-        #fdf0ff
-    );
-    padding: 15px;
-    margin-top: 15px;
-    border-radius: 15px;
-    border-left: 6px solid #ffb6d9;
-}
+        <div class="project">
+            <h3>เว็บไซต์ Portfolio</h3>
+            <p>เว็บไซต์นี้เป็นหนึ่งในผลงานที่ผมสร้างขึ้นเพื่อแสดงความสามารถของฉัน</p>
+        </div>
 
-.project h3 {
-    color: #7c4dff;
-}
+        <div class="project">
+            <h3>แอปพลิเคชันจัดการงาน</h3>
+            <p>แอปพลิเคชันที่ช่วยให้ผู้ใช้งานจัดการงานได้อย่างมีประสิทธิภาพ</p>
+        </div>
+    </section>
 
-/* รายการทักษะ */
-ul {
-    list-style: none;
-    padding: 0;
-}
+    <!-- ส่วนแสดงทักษะ -->
+    <section id="skills">
+        <h2>ทักษะของผม</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Django</li>
+            <li>Git และ GitHub</li>
+            <li>การออกแบบ UI/UX</li>
+        </ul>
+    </section>
 
-ul li {
-    background: linear-gradient(
-        90deg,
-        #d6f4ff,
-        #ffd6ec
-    );
-    margin: 10px 0;
-    padding: 12px;
-    border-radius: 10px;
-}
+    <!-- ส่วนติดต่อและลิขสิทธิ์ -->
+    <footer>
+        <p>ติดต่อผมได้ที่:
+            <a href="mailto:somchai@example.com">somchai@example.com</a>
+        </p>
+        <p>&copy; <span id="year"></span> SOMCHAI. All rights reserved.</p>
+    </footer>
 
-/* ส่วนท้าย */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(
-        90deg,
-        #a8e8ff,
-        #ffb6d9,
-        #d8b4ff
-    );
-    color: #444;
-    margin-top: 20px;
-}
-
-footer a {
-    color: #7c4dff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer a:hover {
-    color: #ff69b4;
-}
+    <!-- เรียกใช้ JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
